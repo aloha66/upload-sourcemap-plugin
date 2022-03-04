@@ -1,6 +1,6 @@
 {
-  "name": "upload-sourcemap-plugin",
-  "version": "0.1.1-beta.2",
+  "name": "@aloha66/upload-sourcemap-plugin",
+  "version": "0.1.1-beta.3",
   "description": "Register global imports on demand for Vite and Webpack",
   "keywords": [
     "unplugin",
