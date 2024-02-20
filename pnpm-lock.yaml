@@ -5,6 +5,7 @@ importers:
   .:
     specifiers:
       '@antfu/eslint-config': ^0.7.0
+      '@types/glob': ^7.2.0
       '@types/jest': ^27.0.1
       '@types/node': ^16.7.10
       bumpp: ^6.0.6
@@ -26,6 +27,7 @@ importers:
       unplugin: 0.2.7_c75b475458ad255921b9f2b94a436e4a
     devDependencies:
       '@antfu/eslint-config': 0.7.0_eslint@7.32.0+typescript@4.4.2
+      '@types/glob': 7.2.0
       '@types/jest': 27.0.1
       '@types/node': 16.7.10
       bumpp: 6.0.6
@@ -677,7 +679,7 @@ packages:
     dependencies:
       '@types/istanbul-lib-coverage': 2.0.3
       '@types/istanbul-reports': 3.0.0
-      '@types/node': 16.4.12
+      '@types/node': 16.7.10
       '@types/yargs': 16.0.4
       chalk: 4.1.0
     dev: true
@@ -825,6 +827,13 @@ packages:
     resolution: {integrity: sha512-C6N5s2ZFtuZRj54k2/zyRhNDjJwwcViAM3Nbm8zjBpbqAdZ00mr0CFxvSKeO8Y/e03WVFLpQMdHYVfUd6SB+Hw==}
     dev: true
 
+  /@types/glob/7.2.0:
+    resolution: {integrity: sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==}
+    dependencies:
+      '@types/minimatch': 3.0.5
+      '@types/node': 16.7.10
+    dev: true
+
   /@types/graceful-fs/4.1.5:
     resolution: {integrity: sha512-anKkLmZZ+xm4p8JWBf4hElkM4XR+EZeA2M9BAkkTldmcyDY4mbdIJnRghDJH3Ov5ooY7/UAoENtmdMSkaAd7Cw==}
     dependencies:
@@ -866,8 +875,8 @@ packages:
     resolution: {integrity: sha1-7ihweulOEdK4J7y+UnC86n8+ce4=}
     dev: true
 
-  /@types/node/16.4.12:
-    resolution: {integrity: sha512-zxrTNFl9Z8boMJXs6ieqZP0wAhvkdzmHSxTlJabM16cf5G9xBc1uPRH5Bbv2omEDDiM8MzTfqTJXBf0Ba4xFWA==}
+  /@types/minimatch/3.0.5:
+    resolution: {integrity: sha512-Klz949h02Gz2uZCMGwDUSDS1YBlTdDDgbWHi+81l29tQALUtvz4rAYi5uoVhE5Lagoq6DeqAUlbrHvW/mXDgdQ==}
     dev: true
 
   /@types/node/16.7.10:
@@ -3733,7 +3742,7 @@ packages:
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     dependencies:
       '@jest/types': 27.0.6
-      '@types/node': 16.4.12
+      '@types/node': 16.7.10
       chalk: 4.1.0
       graceful-fs: 4.2.6
       is-ci: 3.0.0

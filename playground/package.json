@@ -1,7 +1,9 @@
 {
   "private": true,
   "scripts": {
-    "dev": "nodemon -w '../src/**/*.ts' -e .ts -x 'vite'"
+    "dev": "nodemon -w '../src/**/*.ts' -e .ts -x 'vite'",
+    "serve":"vite",
+    "build":"vite build"
   },
   "devDependencies": {
     "vite": "^2.5.3",
